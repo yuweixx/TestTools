@@ -9,5 +9,11 @@ Charles是一种Mac平台比较好用的抓包工具，对包内容进行了自�
     4.现在打开任意消耗流量的app就可以抓包了，主要Mac机上选择allow。
       
 #### 两种视图
-    Structure：按域名归类排序
+    Structure：按域名归类排序。
+    Sequence：按时间排序。
     
+#### 常用的视窗
+    Overview：这里有URL、协议类型、IP地址、时间、速度及流量大小等信息。
+    Request：在Headers栏可以直观的看到请求内容。
+    Response：响应内容，一般也只看Headers。
+    Summary、Chart、Notes比较少关注。
