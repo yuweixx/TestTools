@@ -17,3 +17,8 @@ Charles是一种Mac平台比较好用的抓包工具，对包内容进行了自�
     Request：在Headers栏可以直观的看到请求内容。
     Response：响应内容，一般也只看Headers。
     Summary、Chart、Notes比较少关注。
+
+#### 抓HTTPS包
+    我们需要两个证书
+    1.SSL证书，Charlesproxy.com/getsl上下载；
+    2.对应的应用证书，需要利用浏览器导出https证书，然后放到服务器上，建立web service，手机访问ip/xxx.crt获取。
