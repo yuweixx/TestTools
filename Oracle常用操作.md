@@ -40,6 +40,7 @@
 ### 给新用户授权:
 
 ``` grant connect,resource,create any view to newusername; ```
+
 ``` alter user newusername quota unlimited on users; ```
 
 ### 还原数据库数据:
