@@ -38,8 +38,9 @@
 ``` create user newusername identified by newpassword; ```
 
 ### 给新用户授权:
-``` grant connect,resource,create any view to newusername;
-alter user newusername quota unlimited on users; ```
+
+``` grant connect,resource,create any view to newusername; ```
+``` alter user newusername quota unlimited on users; ```
 
 ### 还原数据库数据:
 ``` imp "'/ as sysdba'" file=D:\dbback\dbfilename.dmp fromuser=newusername touser=newusername buffer=819200 ```
